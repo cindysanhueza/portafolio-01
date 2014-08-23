@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Portafolio Cindy Sanhueza</title>
+	  <link rel="stylesheet" type="text/css" href="css/cascada.css"/>
+	  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+	  <meta charset="UTF-8">
+	</head>
+
+	<body>
+		<header>
+			<div class="logo">
+				<a href="index.html"><img src="imagenes/logo 45x71px-12.png" >
+				<li>CINDY SANHUEZA</li></a>
+			</div>
+
+			<div class="nav">
+				<ul>
+					<li><a href="proyectos.html">PROYECTOS</a></li>
+					<li><a href="estudios.html">ESTUDIOS</a></li>
+					<li><a href="personales.html">PERSONALES</a></li>
+					<li><a href="digital.html">DIGITAL</a></li>
+					<li><a href="contacto.html">SOBRE MÍ</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<div id="Titulo-digital"
+			<h3>ESTUDIOS</h3>
+			<p>Mapa con información de los incendios ocurridos entre 1998 y el 2010</p>
+		</div>
+		
+		<div id="mapa"><!--MAPA-->
+			<iframe width="944px" height="600px" src="mapbox-js/incendioshistoricosvalparaiso3.html" scrolling="no" frameborder="no" ></iframe>
+		</div><!--FIN MAPA-->
+
+		<div id="titulo-infografias">
+		<h3>Infografías</h3>
+			<p>Mapa con información de los incendios ocurridos entre 1998 y el 2010</p>
+		</div>
+		
+		<div id="galeria-digital">
+			<div id="contenido_galeria">
+			  <div id="imagen1">
+			    <img src="imagenes/infografiajpg" alt="" />
+			     
+				<ul><li>Papeles: Bond ahuesado 84 gr.</li>
+	      		</ul>
+			  </div>
+			  <div id="imagen2">
+			    <img src="imagenes/Despliegue (2).jpg" alt="" />
+			    <p> </p>
+			  </div>
+			 
+
+
+		</div><!-- fin div contenido-galeria -->
+
+
+
+		<div class="jMyCarousel">
+		    <ul>
+		        <li><a href="#imagen1" title=""><img src="imagenes/infografiajpg"alt="" /></a></li>
+		        <li><a href="#imagen2" title=""><img src="imagenes/Despliegue (2)chica.jpg"alt="" /></a></li>
+		     
+		   
+		    </ul>
+		</div><!-- Fin div jMyCarousel -->
+		
+	</div><!-- Fin div seccion-galeria -->
+
+</div><!-- Fin content-proyecto -->
+
+		<!--script galeria-->
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js?ver=1.4.4'></script>
+<script type="text/javascript" src="js/jMyCarousel.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".jMyCarousel").jMyCarousel({ // Script de los Thumbnails
+    visible: '100%',
+    eltByElt: true
+    });
+$(".jMyCarousel img").fadeTo(100, 0.6);
+$(".jMyCarousel a img").hover(
+    function(){ //mouse over
+       $(this).fadeTo(400, 1);
+    },
+    function(){ //mouse out
+      $(this).fadeTo(400, 0.6);
+    });
+});
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){ // Script de la Galeria
+    $('#contenido_galeria div').css('position', 'absolute').not(':first').hide();
+    $('#contenido_galeria div:first').addClass('aqui');
+    $('.jMyCarousel a').click(function(){
+        $('#contenido_galeria div.aqui').fadeOut(400);
+        $('#contenido_galeria div').removeClass('aqui').filter(this.hash).fadeIn(400).addClass('aqui');
+        return false;
+    });
+});
+</script> 
+	
+	<footer>
+		<section id="acerca-de">
+			<article>
+				<li>Cindy Sanhueza Castro.  2014</li>
+				<li>cindy.sanhueza2011@gmail.com</li>
+			</article>
+		</section>
+		<section id="redes-s">
+			<a href="https://www.facebook.com/cindy.sanhuezacastro"><img src="imagenes/iconfacebook3.png" title="Facebook"></a>
+		
+			<a href="https://github.com/cindysanhueza"><img src="imagenes/icongithub3.png" title="Github"></a>
+		</section>
+	</footer>
+
+
+
+	</body>
+</html>
+
