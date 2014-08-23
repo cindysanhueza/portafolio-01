@@ -392,6 +392,7 @@ footer{
     width: 800px;
     margin-left: 0px;  
     margin-right: 0px;
+    background-color: rgba(235,235,235,0.5;); 
 }
 .jMyCarousel .prev  {   
     background: url('../imagenes/left.png') center center no-repeat; 
