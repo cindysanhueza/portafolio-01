@@ -315,3 +315,142 @@ footer{
     font-size: 14px;
     line-height: 2em;
   }
+
+
+/*-----------------------PROYECTOS--------------------------------*/
+
+#content-proyecto{
+	width: 944px;
+	height:1260px;
+	float: center;
+	margin: auto;
+}
+
+#content-proyecto h3{ 
+    padding-top:120px;
+    font-family: "Open sans", sans-serif;
+    font-size: 27px;
+    
+    color:#53A99A;
+    text-align: center;
+}
+
+#content-proyecto h4{ 
+    font-family: "Open sans", sans-serif;
+    font-size: 18px; 
+    color:gray;  
+    text-align: center;
+     padding-top:60px;
+     padding-bottom: 20px;
+}
+
+#content-proyecto p{ 
+    font-family: "Open sans", sans-serif;
+    font-size: 14px; 
+    color:black;  
+    text-align: justify;
+ }
+
+#contenido_galeria {   
+    position: relative; 
+    height: 500px; 
+    padding-top:0px; 
+}
+#contenido_galeria img  {   
+    float: left; 
+    width: 500px; 
+    position: absolute; 
+    margin-left: 0px; 
+}
+#contenido_galeria ul{   
+    width: 340px; 
+    position: absolute; 
+    top: 250px; 
+    left: 550px; 
+    background-color: white; 
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    list-style: none;
+}
+            
+#contenido_galeria h5{
+    font-family: "Open sans", sans-serif;
+    font-size: 16px; 
+    color:gray;  
+    text-align: center;
+}
+        
+#seccion-galeria{
+   margin-top: 80px;
+    width:640;
+}
+
+
+.jMyCarousel  {   
+    margin-top: 10px; 
+    width: 800px;
+    margin-left: 0px;  
+    margin-right: 0px;
+}
+.jMyCarousel .prev  {   
+    background: url('../imagenes/left.png') center center no-repeat; 
+    width:40px; 
+    height:61px; 
+    border:0px; 
+}
+.jMyCarousel .next  {   
+    background: url('../imagenes/right.png') center center no-repeat; 
+    width:40px; 
+    height:61px; 
+    border:0px; 
+}
+.jMyCarousel ul li   {   
+    margin:0px ; 
+    line-height:0px; 
+    padding:0px; 
+}
+.jMyCarousel ul li a  {   
+    display:block; 
+}
+.jMyCarousel ul li img   {   
+    display:block; 
+    border:0px; 
+    margin: 0px 5px 0px;
+}
+
+#mas-proyectostitulo{
+	margin: auto;
+	float: center;
+	/*background-color:  rgba(83, 169, 154, 0.5);*/
+	background: url("http://cram.org/wp-content/uploads/2014/06/congruent_pentagon.png");
+	width: 100%px;
+	height:350px;
+
+		
+}
+
+#mas-proyectos img{
+	padding-top: 0px;
+	float: left;
+	width: 270px;
+
+	padding-right: 40px;
+
+}
+#mas-proyectos{
+	padding-right: 40px;
+	margin-left: 211px;
+	width: 944px;
+	text-align: center;
+	float: center;
+}
+
+#mas-proyectostitulo h4{ 
+    font-family: "Open sans", sans-serif;
+    font-size: 18px; 
+    color:gray;  
+    text-align: center;
+     padding-top:40px;
+
+}
