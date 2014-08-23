@@ -454,3 +454,530 @@ footer{
      padding-top:40px;
 
 }
+
+
+
+/*-----------------------ESTUDIOS--------------------------------*/
+
+#titulo-estudios{
+	
+	width: 944px;
+	height:200px;
+	float: center;
+	margin: auto;
+}
+
+#titulo-estudios h3{
+	padding-top:120px;
+    font-family: "Open sans", sans-serif;
+    font-size: 27px;
+    color:#53A99A;
+    text-align: center;
+}
+
+#galeria-estudios{
+	padding-top: 40px;
+	width: 944px;
+	height:780px;
+	float: center;
+	margin: auto;
+}
+
+.controls {
+	width:944px;
+	float: center;
+	margin: auto;
+}
+
+
+.controls li{
+	display: inline;
+	list-style: none;
+	float: left;
+	padding-right: 20px;
+}
+
+
+.content{
+	width:944px;
+	float: center;
+	margin: auto;
+	height: 500px
+}
+
+
+
+div.scroller { 
+	/* modify width and height of scrolling section if necessary	*/		
+	width: 944px; 
+	float: left;
+	-moz-overflow:hidden;
+	-webkit-overflow:hidden;
+	overflow: hidden;
+	height: 500px;
+	padding-top:70px;
+	padding-left: 0px;
+	
+	}
+	div.scroller div.section {
+		/* modify width and height of each section as needed (should match the size of the scroller window)	*/		
+		width:2000px;
+		height:300px;
+		-moz-overflow:hidden;
+		-webkit-overflow:hidden;
+		overflow:hidden;
+		float:left;
+				
+		}
+	div.scroller div.content {
+		width: 10000px;
+		}
+
+	div#section2 {
+		
+		color:#ffffff;
+		}
+
+#section1 {
+	height: 500px;
+}
+
+#section2 {
+	height: 500px;
+}
+
+#section3 {
+	height: 500px;
+}
+
+#section4 {
+	height: 500px;
+}
+
+
+.section img{
+	height:462px;
+
+}
+
+#controles-estudio{
+	float: center;
+	margin: auto;
+	width: 944px;
+	text-align: center;
+	
+}
+
+#controles-estudio img{
+	float: left;
+
+}
+
+
+
+/*-----------------------DIGITAL--------------------------------*/
+
+#mapa{
+	float: center;
+	text-align: center;
+	margin: auto;
+	padding-top: 190px;
+	
+}
+
+#galeria-digital{
+	width: 944px;
+	height:800px;
+	float: center;
+	margin: auto;
+	padding-top: 190px;
+}
+
+#Titulo-digital{
+float:center;
+width:944px;
+margin: auto;
+padding-top: 90px;
+}
+
+#Titulo-digital h2{
+  font-family: "Open sans", sans-serif;
+    font-size: 18px; 
+    color:gray;  
+    text-align: center;
+     padding-top:60px;
+     padding-bottom: 20px;
+}
+
+#Titulo-digital p{
+
+}
+
+#titulo-infografias{
+float:center;
+width:944px;
+margin: auto;
+}
+
+#titulo-infografias h2{
+  font-family: "Open sans", sans-serif;
+    font-size: 18px; 
+    color:gray;  
+    text-align: center;
+     padding-top:60px;
+     padding-bottom: 20px;
+}
+
+#titulo-infografias p{
+
+}
+
+/*-----------------------PERSONALES--------------------------------*/
+
+#content-personales{
+	width:944px;
+	float: center;
+	margin: auto;
+}
+
+#caja-encuadernacion{
+	width:944px;
+
+}
+
+#caja-xiloestencil{
+	width:944px;
+}
+
+#content-personales h4{
+  font-family: "Open sans", sans-serif;
+    font-size: 18px; 
+    color:gray;  
+    text-align: center;
+     padding-top:60px;
+     padding-bottom: 20px;
+}
+
+/*-----------------------CONTACTO--------------------------------*/
+
+#contacto{
+	padding-top:190px; 
+	margin: auto;
+	width: 460px;
+	padding-bottom: 0px;
+	float: center;
+	text-align: center;
+}
+
+#contacto h3{
+	padding-bottom: 10px;
+	font-family: "Open sans", sans-serif;
+	font-size: 27px;
+	float: center;
+	color:#53A99A;
+}
+
+#contacto img{
+	 width: 200px; 
+	height: 200px; 
+	border-radius: 150px; 
+	-webkit-border-radius: 150px; 
+	-moz-border-radius: 150px; 
+	
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+	float: center;
+	margin: auto;
+} 
+
+#contacto p{
+	font:14px "Open sans", sans-serif;
+	text-align: center;
+	padding-bottom: 0px;
+}
+
+#formulario{
+	height: 600px;
+	float:left;
+	margin: auto;
+	text-align:left;
+	padding-left: 512px;
+}
+
+label{
+	display: block;
+
+}
+
+section{
+
+float: center;
+}
+
+#btnSubmit{
+	border:none;
+	background-color: #F0F0E1;
+	color:#53A99A;
+	padding: 4px;
+	margin: 20px;
+	cursor:pointer;
+}
+
+section h3{ 
+    padding-top: 100px;
+    font-family: "Open sans", sans-serif;
+    font-size: 27px;
+    float: center;
+    color:#53A99A;
+    text-align: center;
+	font:14px/30px "Open sans", sans-serif;
+	width:100%;
+	margin:auto;
+}
+
+header{
+	height: 50px;
+	background: #fff;
+	width:100%;
+	z-index: 10;
+	position:fixed;
+	top:0;
+	box-shadow:0 5px 10px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0px 5px 10px #575748; 
+	-moz-box-shadow: 0px 5px 10px #575748; 
+}
+
+.logo{
+	float:left;
+	margin-left: 100px;
+	height: 50px;
+	width: 600px;
+	margin-top: 7px;
+	display: block;
+}
+
+.logo img{
+	float: left;
+	width:24px;
+	height:38px;
+}
+
+.logo li{
+	padding-top: 4px;
+	padding-left: 8px;
+	float: left;
+	list-style: none;
+	font-family: "Open sans", sans-serif;
+	font-size: 14px;
+	color:gray;
+}
+
+.logo li:hover{
+	color:#402144;
+}
+
+
+.nav {
+	float:right;
+	margin-top: -3px;
+}
+
+/* Links */
+a{
+	text-decoration: none;	
+	color: gray;
+	display: block;
+}
+
+.nav li:focus {
+    padding-right: 0px;
+	border-bottom: #874F99 solid;
+}
+     
+.nav li:hover {
+	padding-right: 0px;
+	border-bottom: #874F99 solid;
+}
+
+
+
+.nav li{
+	list-style: none;
+	float:left;
+	margin-top: 0px;
+	font-family: "Open sans", sans-serif;
+	font-size: 12px;
+	margin-right: 50px;
+}
+
+#banner{
+	width:100%;
+	height:800px;
+	position: fixed;
+	top:50px;
+
+	background: url("http://cram.org/wp-content/uploads/2014/06/congruent_pentagon.png");
+	background-repeat: repeat;
+	opacity: 1;
+	visibility: visible;
+	text-align: center;
+}
+
+
+#banner img{
+	float: center;
+	padding-top: 80px;
+	width:298;
+	height: 250;
+	text-align: center;	
+	}
+
+#banner h1{
+	float:center;
+	padding-top: 74px;
+	font-size: 27px; 
+	color:#533D5E;
+	top:600px;
+	text-align: center;
+}
+/*Inicia Contenido*/
+#content{
+	width: 100%;
+	position: relative;
+	top: 610px;
+	background: #fff;
+	height: 1100px;
+}
+
+
+.letra-azul h2{
+	padding-top: 120px;
+	font-family: "Open sans", sans-serif;
+	font-size: 27px;
+	color:#53A99A;
+	text-align: center;
+	float: center;
+}
+
+.letra-azul p{
+	font-family: "Open sans", sans-serif;
+	font-size: 16px;
+	color:#7F8184;
+	text-align: center;
+}
+
+
+.imagenes{
+	margin: auto;
+	padding-top:43px;
+	float: center;
+	width:948px;
+	height:188px;
+}
+
+.imagenes img{
+	padding-right: 20px;
+}
+
+/* seccion 2*/
+.letra-blanca h2{
+	padding-top: 120px;
+	font-family: "Open sans", sans-serif;
+	font-size: 27px;
+	float: center;
+	color:#fff;
+	text-align: center;
+
+}
+
+.letra-blanca p{
+	float: center;
+	font-family: "Open sans", sans-serif;
+	font-size: 16px;
+	color:#fff;
+	text-align: center;
+}
+
+#content2{
+	width: 100%;
+	position: relative;
+	background: #57A79A;
+	height: 530px;
+}
+
+/*seccion3*/
+#content3{
+	width: 100%;
+	position: relative;
+	background: #fff;
+	height: 530px;
+
+}
+
+/*seccion4*/
+#content4{
+	width: 100%;
+	position: absolute;
+	background: #57A79A;
+	height: 530px;
+}
+
+/*footer*/
+
+#espacio-footer{
+	margin-top: 530px;
+}
+
+footer{
+	width: 100%;
+	clear: both;
+	box-shadow: 0px 5px 5px #575748 ;
+	-moz-box-shadow:0px 5px 5px #575748 ;
+	-webkit-box-shadow:0px 5px 5px #575748 ;
+	
+	/*	border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;*/
+	background-color: #F0F0E1;
+	height: 130px;
+	position: relative;
+		
+}
+
+#acerca-de{
+	font-family: "Open sans", sans-serif;
+	font-size: 12px;
+	color:gray;
+	text-align: justify;
+	line-height: 20px;
+	list-style: none;
+	width: 600px;
+	float:left;
+	margin: 20px;
+	padding:30px; 
+}
+
+#redes-s{
+	margin: 20px;
+	float: right;
+	height:50px; 
+	width:120px;
+}
+
+#redes-s a{
+	float: left;
+	margin-right: 0px;
+	padding-top: 20px;
+	opacity: 0.5;
+}
+
+#redes-s > a img{
+	width:50px;
+	height: 50px;
+	display: block;
+}
+
+#redes-s > a:hover{
+	opacity:1;
+}
