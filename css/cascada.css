@@ -251,3 +251,67 @@ footer{
 	opacity:1;
 }
 
+
+
+
+  .imgteaser { /* es el bloque general */
+    margin: auto; /* lo centramos */
+    overflow: hidden;
+    position: relative;
+    /* establecemos el ancho total (imagen + marco) */
+   
+	float: center;
+	width:452px;
+	height:188px;
+
+  }
+  .imgteaser a {text-decoration: none;}
+  .imgteaser a:hover {cursor: pointer;}
+  .imgteaser a img { /* la imagen en si misma */
+    
+    border: none;
+    margin: 0;
+    width: 600px; /* forzamos el tamaño de la imagen */
+  }
+  .imgteaser a .more { /* es el área traslúcida de LEER MAS */
+    background-color: #333333;  /* color de fondo */
+    /* las propiedades del texto */
+    color: #FFF;
+    width: 452px;
+    font-size: 14px;
+    padding: 5px 10px;
+    /* transparencia */
+    filter:alpha(opacity=85); /* IE genérico */
+    opacity:.85; /* Firefox */
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=65)'; /* IE8 */
+    /* posicionamos ese texto abajo y a la izquierda sin importar la altura de la imagen */
+    position: absolute;
+    bottom: 0px;
+    
+
+  }
+  .imgteaser a .desc {display: none;}
+  .imgteaser a:hover .more {visibility: hidden;}
+  .imgteaser a:hover .desc { /* es el texto del caption en si mismo */
+    background-color:#345; /* color de fondo */
+    display: block;
+    margin: 0;
+    width: 580px; /* ocupará el mismo ancho de la imagen */
+    /* las propiedades del texto */
+    color: #FFF;
+    font-size: 12px;
+    padding: 10px;
+    /* transparencia */
+    filter:alpha(opacity=75);
+    opacity:.75;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=75)';
+    /* lo posicionamos abajo y a la derecha sin importar la altura de la imagen */
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  .imgteaser a:hover .desc strong { /* el texto LEER MAS */
+    display: block;
+    font-size: 14px;
+    line-height: 2em;
+  }
